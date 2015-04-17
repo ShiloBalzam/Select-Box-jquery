@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Select Box</title>
+		<link rel="stylesheet" type="text/css" href="select-style_en.css"/>
+		<!--<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
+      <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+	</head>
+    
+	<body>
+
+		<div class='selectBox'>
+                    <input type="hidden" value="" class="price_values"/>
+                    <span class='selected'></span>
+                    <span class='selectArrow'>&#9660;</span>
+                    <ul class="selectOptions" >
+                        <li class="selectOption select" data-value="value 1">Option 1</li>
+                        <li class="selectOption" data-value="value 2">Option 2</li>
+                        <li class="selectOption" data-value="value 3">Option 3</li>
+                    </ul>
+		</div>
+        <div class='selectBox'>
+                    <input type="hidden" value="" class="price_values"/>
+                    <span class='selected'></span>
+                    <span class='selectArrow'>&#9660;</span>
+                    <ul class="selectOptions">
+                        <li class="selectOption" data-value="value 1">Option 1</li>
+                        <li class="selectOption select" data-value="value 2">Option 2</li>
+                        <li class="selectOption" data-value="value 3">Option 3</li>
+                    </ul>
+		</div>
+      <select>
+      	<option>this 1</option>
+        <option selected="selected">this 2</option>
+        <option>this 3</option>
+        <option>this 4</option>
+      </select>
+       <select>
+      	<option>this 1</option>
+        <option>this 2</option>
+        <option>this 3</option>
+        <option selected="selected">this 4</option>
+      </select>
+     
+	</body>
+    <script type="text/javascript" src="quick_selectBox.js"></script>
+    <script type="text/javascript" src="selectBox.js"></script>
+</html>
