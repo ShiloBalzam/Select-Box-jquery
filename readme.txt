@@ -1,6 +1,6 @@
 active select box step by step:
 
-option 1 ---
+option 1 --
 
 1. go to your page and replace  all <select> with <div class='selectBox'>
                     <input type="hidden" value="" class="price_values"/>
