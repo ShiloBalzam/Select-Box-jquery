@@ -3,4 +3,6 @@ A custom select box similar to chrom select - easy to use  , look's the same in 
 
 language support : english , hebrew
 
+also you can change the design easily - give it a try...
+
 
